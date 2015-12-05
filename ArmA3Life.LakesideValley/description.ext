@@ -6,7 +6,7 @@ joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
 disabledAI = true;
-disableChannels[]={1,2};
+disableChannels[]={0,1,2};
 enableDebugConsole = 1;
 respawnDialog = 0;
 

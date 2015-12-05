@@ -1,6 +1,6 @@
-author = "A3L Development Team";
+author = "TONIC modified by ARPG"; // never change
 onLoadName = "ArmA 3 Life 0.3.2";
-onLoadMission = "A Roleplay mission developed by ArmA 3 Life";
+onLoadMission = "Welcome to ArmA RPG!";
 loadScreen = "textures\E76_AppleGate_Lake.paa";
 joinUnassigned = 1;
 respawn = BASE;

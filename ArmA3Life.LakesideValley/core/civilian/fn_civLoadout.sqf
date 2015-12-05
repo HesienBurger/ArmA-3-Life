@@ -11,6 +11,7 @@ _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
 player addUniform "A3LShirt";
+// player addUniform "ARPGUniform";
 
 /* ITEMS */
 player addItem "ItemMap";

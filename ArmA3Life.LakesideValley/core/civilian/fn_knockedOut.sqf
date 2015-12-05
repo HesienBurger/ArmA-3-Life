@@ -14,11 +14,15 @@ if(_who == "") exitWith {};
 
 titleText[format[localize "STR_Civ_KnockedOut",_who],"PLAIN"];
 player playMoveNow "Incapacitated";
+cutText ["You have been knocked out...","BLACK"];
 _obj = "Land_ClutterCutter_small_F" createVehicle (getPosATL player);
 _obj setPosATL (getPosATL player);
 player attachTo [_obj,[0,0,0]];
-sleep 15;
+sleep 3;
+cutText ["","BLACK",2];
+sleep 12;
 player playMoveNow "amovppnemstpsraswrfldnon";
+cutText ["","PLAIN",3];
 detach player;
 deleteVehicle _obj;
 player setVariable["robbed",FALSE,TRUE];
